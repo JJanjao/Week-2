@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab202
+namespace Lab2_1
 {
     class Course
     {
@@ -78,14 +78,14 @@ namespace Lab202
                     {
                         if (char.IsDigit(value[i]))
                         {
-                            check = 1;
+                            check++;
                         }
                         else
                         {
                             check = 0;
                         }
                     }
-                    if (check != 1)
+                    if (check != 6)
                     {
                         Console.WriteLine("{0}: error try setting invalid CourseID!", courseID);
                     }
