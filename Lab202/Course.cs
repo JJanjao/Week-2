@@ -17,7 +17,7 @@ namespace Lab2_1
         public Course()
         {
             name = "Unknow";
-            courseID = "Unknow";
+            courseID = "123456";
             numStudents = 0;
             lecturer = "staff";
             maxStudents = 30;
